@@ -5,9 +5,9 @@ import './Header.css';
 export default function Header() {
   return (
     <header>
-      <NavLink to=""></NavLink>
-      <NavLink to=""></NavLink>
-      <NavLink to=""></NavLink>
+      <NavLink to="/rgb/225/0/0">Red</NavLink>
+      <NavLink to="/rgb/255/0/255">Purple</NavLink>
+      <NavLink to="/rgb/255/255/0">Yellow</NavLink>
     </header>
   );
 }
