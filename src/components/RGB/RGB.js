@@ -4,6 +4,9 @@ import './RGB.css';
 
 export default function RGB() {
   const { r, g, b } = useParams();
-  console.log('hi');
-  return <div style={{ backgroundColor: `rgb(${r},${g},${b})` }}>RGB</div>;
+  return (
+    <main className="RGB" style={{ backgroundColor: `rgb(${r},${g},${b})` }}>
+      <h2 className="rgb">{`rgb(${r},${g},${b})`}</h2>
+    </main>
+  );
 }

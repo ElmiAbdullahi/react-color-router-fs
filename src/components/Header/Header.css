@@ -1,0 +1,15 @@
+header {
+  background-color: #655048;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 10vh;
+  justify-content: center;
+  justify-items: center;
+  align-content: space-evenly;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
