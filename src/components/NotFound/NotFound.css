@@ -1,0 +1,6 @@
+.NotFound {
+  display: grid;
+  text-align: center;
+  padding: 40px 15px;
+  font-weight: bold;
+}
